@@ -1,0 +1,15 @@
+[package]
+name = "lux_sysroot"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+lux_core = { workspace = true }
+object = { workspace = true }
+tokio = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+tempfile = { workspace = true }

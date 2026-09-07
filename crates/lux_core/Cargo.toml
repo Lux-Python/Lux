@@ -1,0 +1,28 @@
+[package]
+name = "lux_core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+# Diagnostics & Errors
+miette.workspace = true
+thiserror.workspace = true
+
+# Concurrency & I/O
+reqwest.workspace = true
+
+# Serialization & Parsing
+serde.workspace = true
+serde_json.workspace = true
+toml.workspace = true
+pep440_rs.workspace = true
+pep508_rs.workspace = true
+smol_str.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

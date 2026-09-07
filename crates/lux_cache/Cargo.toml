@@ -1,0 +1,22 @@
+[package]
+name = "lux_cache"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+lux_core.workspace = true
+thiserror.workspace = true
+miette.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+ring.workspace = true
+miniz_oxide.workspace = true
+tempfile.workspace = true
+moka.workspace = true
